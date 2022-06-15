@@ -15,6 +15,9 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.text-change{
+    color: #1E2939;
+}
 
 .container{
     height: 100vh;
@@ -23,6 +26,9 @@ h1{
     align-items: center;
     justify-content: center;
     background-color: #2C3C54;
+}
+.container-change{
+    background-color: #d8d8d8;
 }
 .switch{
     width: 90px;
@@ -33,9 +39,15 @@ h1{
     border: 1px solid #1E2939;
     padding: 1rem;
 }
+.switch-change{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+
+
+}
 .btn{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: #FFFFFF;
     position: absolute;
@@ -45,10 +57,14 @@ h1{
 .btn-change{
     right: -1px;
     left: auto;
+    background-color: #1E2939;
 }
 .switch i{
     position: absolute;
     color: #FFD363;
-    right: 25px;
+    right: 9px;
     top:6px;
+}
+.icon-change{
+    left: 12px;
 }
